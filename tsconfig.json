@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "paths": {
-      "@database/*": ["src/database/*"]
+      "@database/*": ["src/database/*"],
+      "@auth/*": ["src/auth/*"],
+      "@common/*": ["src/common/*"]
     },
     "declaration": true,
     "removeComments": true,
